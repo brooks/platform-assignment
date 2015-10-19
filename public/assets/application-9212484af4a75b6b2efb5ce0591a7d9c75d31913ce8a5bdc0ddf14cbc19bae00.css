@@ -1,0 +1,66 @@
+/* line 5, /Users/monsoon/Code/coin/app/assets/stylesheets/users.scss */
+body {
+  background-color: #ffe;
+}
+
+/* line 9, /Users/monsoon/Code/coin/app/assets/stylesheets/users.scss */
+.title {
+  margin: 50px;
+  text-align: center;
+}
+
+/* line 14, /Users/monsoon/Code/coin/app/assets/stylesheets/users.scss */
+#user-index-container {
+  border: solid 3px #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: white;
+}
+/* line 20, /Users/monsoon/Code/coin/app/assets/stylesheets/users.scss */
+#user-index-container .user-column {
+  height: 310px;
+  overflow: hidden;
+}
+/* line 24, /Users/monsoon/Code/coin/app/assets/stylesheets/users.scss */
+#user-index-container .user-column h1 {
+  padding: 10px 0;
+  border-top: solid 1px #ddd;
+}
+/* line 29, /Users/monsoon/Code/coin/app/assets/stylesheets/users.scss */
+#user-index-container .user-column .user-search-form {
+  height: 60px;
+}
+/* line 33, /Users/monsoon/Code/coin/app/assets/stylesheets/users.scss */
+#user-index-container .user-column .table-container {
+  height: 210px;
+  overflow: auto;
+}
+/* line 36, /Users/monsoon/Code/coin/app/assets/stylesheets/users.scss */
+#user-index-container .user-column .table-container a {
+  list-style-type: none;
+}
+/* line 39, /Users/monsoon/Code/coin/app/assets/stylesheets/users.scss */
+#user-index-container .user-column .table-container a:hover, #user-index-container .user-column .table-container a:focus {
+  text-decoration: none;
+  color: #337ab7;
+}
+/* line 43, /Users/monsoon/Code/coin/app/assets/stylesheets/users.scss */
+#user-index-container .user-column .table-container tr:hover, #user-index-container .user-column .table-container tr:focus {
+  background-color: #f5f5f5;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
